@@ -24,6 +24,16 @@ The figure below demonstrates the model's capability to generalize affordance le
 
 <br>
 
+## 🛠️ Installation
+
+```bash
+# Clone the repository
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+cd your-repo-name
+
+# Install dependencies
+pip install -r requirements.txt
+
 ## 🚀 Usage
 
 ### Training
