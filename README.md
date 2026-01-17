@@ -34,6 +34,8 @@ cd your-repo-name
 # Install dependencies
 pip install -r requirements.txt
 
+```
+
 ## 🚀 Usage
 
 ### Training
