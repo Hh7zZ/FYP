@@ -32,8 +32,8 @@ To train the model using the One-Shot setting:
 ```bash
 python train.py
 
-### Training
-To inference the affordance area in the objects:
+### Inference
+To infer the affordance area in the objects:
 
 ```bash
 python demo.py \
