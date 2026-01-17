@@ -23,3 +23,15 @@ The figure below demonstrates the model's capability to generalize affordance le
 </div>
 
 <br>
+
+## 🚀 Usage
+
+### Training
+To train the model using the One-Shot setting:
+
+```bash
+python train.py
+
+python demo.py \
+  --img "path_to_image" \
+  --model_file "path_to_trained_weights"
