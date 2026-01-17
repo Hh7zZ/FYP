@@ -19,7 +19,7 @@ The figure below demonstrates the model's capability to generalize affordance le
 <div align="center">
   <img src="assets/affordance_visualization.png" alt="Affordance Prediction Visualization" width="100%">
   <br>
-  <em>Figure 1: Qualitative results showing input images (top row) and generated affordance heatmaps (bottom row). The model accurately identifies regions for actions like "Cut," "Hold," and "Open" across various objects.</em>
+  <em>Figure 1: Qualitative results showing input images (top row) and generated affordance heatmaps (bottom row). The model accurately identifies regions for actions like "Cut", "Hold", "Open" and "Carry" across various objects.</em>
 </div>
 
 <br>
