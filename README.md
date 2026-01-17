@@ -28,13 +28,35 @@ The figure below demonstrates the model's capability to generalize affordance le
 
 ```bash
 # Clone the repository
-git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+git clone https://github.com/Hh7zZ/FYP.git
 cd your-repo-name
 
 # Install dependencies
 pip install -r requirements.txt
 
 ```
+### 📥 Pre-trained Models
+
+This project utilizes **DINOv3** as the visual backbone. Please download the specific pre-trained weights from the official repository and place them in the `weights` directory.
+
+| Model Variant | Parameters | Pretraining Dataset | Download Link |
+| :--- | :--- | :--- | :--- |
+| **ViT-B/16 distilled** | **86M** | **LVD-1689M** | https://ai.meta.com/resources/models-and-libraries/dinov3-downloads/|
+
+**Setup Steps:**
+
+1. Create a directory for weights:
+   ```bash
+   mkdir -p weights
+2. Download the model (ViT-B/16 distilled, 86M) from the link above.
+
+3. Rename the file to dinov3_vitb16.pth (optional, based on your config) and save it to the weights/ folder.
+# Example structure
+.
+├── weights/
+│   └── dinov3_vitb16.pth  <-- Place the downloaded file here
+├── train.py
+└── ...
 
 ## 🚀 Usage
 
