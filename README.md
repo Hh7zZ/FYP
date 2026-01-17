@@ -51,11 +51,12 @@ This project utilizes **DINOv3** as the visual backbone. Please download the spe
 2. Download the model (ViT-B/16 distilled, 86M) from the link above.
 
 3. Rename the file to dinov3_vitb16.pth (optional, based on your config) and save it to the weights/ folder.
-.
+```bash
 ├── weights/
 │   └── dinov3_vitb16.pth  <-- Place the downloaded file here
 ├── train.py
 └── ...
+```
 
 ## 🚀 Usage
 
